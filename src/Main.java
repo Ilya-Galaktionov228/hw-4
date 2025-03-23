@@ -22,23 +22,25 @@ public class Main {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
         }
         // Задача 4
-        int agee = 6;
-        if (agee >= 2 && agee <= 6){
-            System.out.println( "Если человеку " + agee + " лет, то ему нужно ходить в сад.");
-        } if (agee >= 7 && agee <= 17){
-            System.out.println( "Если человеку " + agee + " лет,  то ему нужно ходить в школу.");
-        } if (agee >= 18 && agee <= 24){
-            System.out.println( "Если человеку " + agee + " лет,  то его место в университете.");
-        } if (agee > 24){
-            System.out.println( "Если человеку " + agee + " лет,  то ему пора ходить на работу.");
+        int agePeople = 2;
+        if (agePeople <= 1 && agePeople < 2){
+            System.out.println( "Если человеку " + agePeople + " лет, то ему нужно сидеть дома");
+        } if (agePeople >= 2 && agePeople <= 6){
+            System.out.println( "Если человеку " + agePeople + " лет, то ему нужно ходить в сад.");
+        } if (agePeople >= 7 && agePeople <= 17){
+            System.out.println( "Если человеку " + agePeople + " лет,  то ему нужно ходить в школу.");
+        } if (agePeople >= 18 && agePeople <= 24){
+            System.out.println( "Если человеку " + agePeople + " лет,  то его место в университете.");
+        } if (agePeople > 24){
+            System.out.println( "Если человеку " + agePeople + " лет,  то ему пора ходить на работу.");
         }
         // Задача 5
         int kidsAge = 14;
         if (kidsAge < 5){
             System.out.println("Если ребенку "+ kidsAge + " лет, то кататься на аттракционах нельзя.");
-        } if (kidsAge >= 5 && kidsAge < 14){
+        } if (kidsAge >= 5 && kidsAge <= 14){
             System.out.println("Если ребенку "+ kidsAge + " лет, то кататься на аттракционах можно в сопровождении взрослого.");
-        } if (kidsAge <= 14){
+        } if (kidsAge < 14){
             System.out.println("Если ребенку "+ kidsAge + " лет, то кататься на аттракционах можно без сопровождения.");
         }
         // Задача 6
