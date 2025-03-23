@@ -35,12 +35,12 @@ public class Main {
             System.out.println( "Если человеку " + agePeople + " лет,  то ему пора ходить на работу.");
         }
         // Задача 5
-        int kidsAge = 14;
+        int kidsAge = 15;
         if (kidsAge < 5){
             System.out.println("Если ребенку "+ kidsAge + " лет, то кататься на аттракционах нельзя.");
         } if (kidsAge >= 5 && kidsAge <= 14){
             System.out.println("Если ребенку "+ kidsAge + " лет, то кататься на аттракционах можно в сопровождении взрослого.");
-        } if (kidsAge < 14){
+        } if (kidsAge > 14){
             System.out.println("Если ребенку "+ kidsAge + " лет, то кататься на аттракционах можно без сопровождения.");
         }
         // Задача 6
